@@ -28,7 +28,50 @@ and a player rebuilt for Samsung DeX.
 <p align="center"><img src="assets/led-car.gif" alt="In a car at night: the app on the dashboard screen, and the LED strip along the dash changes colour to match each new song's album art" /></p>
 <p align="center"><sub>Real footage: the dash strip goes white for a black-and-white cover, then pink, red and blue as the covers change.</sub></p>
 
-<p align="center"><img src="assets/screens.jpg" alt="Home, the Now Playing screen and the lyrics view of the fork" /></p>
+<table>
+<tr>
+<td width="33%" align="center"><img src="assets/open.gif" width="240" alt="The mini player grows into the full player, then the lyrics open" /><br /><b>Grows out of the mini bar</b></td>
+<td width="33%" align="center"><img src="assets/switch.gif" width="240" alt="Swiping between songs in the player; the background re-tints to each cover" /><br /><b>Swipe between songs</b></td>
+<td width="33%" align="center"><img src="assets/lyrics-zh.gif" width="240" alt="A Chinese song's lyrics with pinyin and a Vietnamese translation under each line" /><br /><b>Romanized + translated lyrics</b></td>
+</tr>
+</table>
+<p align="center"><sub>Screen recordings from my phone.</sub></p>
+
+<br />
+
+## ✨ What you get
+
+SimpMusic is already a great app; my fork builds on top of it. To be clear about who made what:
+
+<table>
+<tr>
+<th width="50%">From SimpMusic (upstream)</th>
+<th width="50%">Added in my fork</th>
+</tr>
+<tr>
+<td valign="top">
+
+- 🎧 **The whole YouTube Music catalogue, ad-free**, with background playback
+- 🔊 **Full audio quality**: pick the stream quality, or prefer a 320 kbps stream where one exists
+- 🫧 **Liquid glass** bottom bar and mini player
+- 🎤 **Synced lyrics** from several providers, plus AI lyric translation
+- 🎬 **Spotify Canvas** and animated album covers behind the player
+- ⏭️ SponsorBlock, AutoEq, downloads, and a desktop app
+
+</td>
+<td valign="top">
+
+- 💡 **Car LED strip** that follows the album art
+- 📱 **Continue on the other phone**, with end-to-end-encrypted sign-in sync
+- 🎞️ **Animations**: the player grows out of the mini bar, carousel page transitions, a song pager in the bar
+- 🈶 **Romanized lyrics light up word by word** (pinyin and more), and AI translations that are **natural and singable**
+- ✍️ **Tap-along** to time your own lyrics, and per-song lyric sources
+- 🖥️ A layout for **Samsung DeX** and wide screens
+- 🚙 **Car mode** with a self-filling offline library
+
+</td>
+</tr>
+</table>
 
 <br />
 
@@ -136,8 +179,6 @@ so a new install signs itself in:
 
 ## 🎛️ A player rebuilt for Samsung DeX
 
-<p align="center"><img src="assets/grow.jpg" alt="Five frames: the mini player bar is dragged up and grows into the full player, following the finger" /></p>
-<p align="center"><sub>Captured mid-drag: the player follows the finger out of the mini bar.</sub></p>
 
 - **Grows out of the mini player**, YouTube Music style: drag the bar up and the player follows your
   finger, the bar's glass carried over and the cover flying to its place; release to open or sink back
@@ -154,6 +195,22 @@ so a new install signs itself in:
 <br />
 
 ## 🎤 Lyrics
+
+<table>
+<tr>
+<td width="38%" align="center"><img src="assets/lyrics-zh.jpg" width="300" alt="海屿你 by 马也Crabbit: each Chinese line with its pinyin and a Vietnamese translation underneath" /></td>
+<td>
+
+A Chinese song, read three ways: the original, its **pinyin** (which in my fork lights up word by word
+with the singer), and a **Vietnamese translation** from my rewritten prompt, written to be sung rather than word-for-word.
+
+*就像开败的花 浪也拍打着沙*<br />
+*jiù xiàng kāi bài de huā làng yě pāi dǎ zhe shā*<br />
+*Tựa đóa hoa tàn, sóng vỗ bờ cát*
+
+</td>
+</tr>
+</table>
 
 - **AI translation was silently broken**: the default Gemini model (`gemini-2.0-flash`) had been
   retired, so every request failed. Moved to `gemini-2.5-flash`, with a prompt asking for natural,
