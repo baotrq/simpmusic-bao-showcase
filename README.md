@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk"><img src="assets/download.svg" width="640" alt="Download here: latest version for Android, about 30 MB" /></a>
+
 # Nhạc Nhẽo
 
 ### The whole of YouTube Music, in a player that feels handmade.
@@ -9,7 +11,6 @@ A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned
 
 <br />
 
-[![Download the latest APK](https://img.shields.io/badge/Download-latest_APK-2EA043?style=for-the-badge&logo=android&logoColor=white)](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)
 [![All releases](https://img.shields.io/badge/All-releases-FF3B5C?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/releases)
 [![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-1B1B1F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
 
