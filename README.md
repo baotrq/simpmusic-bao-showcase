@@ -18,7 +18,6 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 
 [![Releases](https://img.shields.io/badge/All_releases-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/simpmusic-bao-showcase/releases)
-[![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
 [![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-2B2B2E?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
 
 ![Platform](https://img.shields.io/badge/Android_only_·_8%2B-2B2B2E?style=flat-square&logo=android&logoColor=white)
@@ -161,7 +160,7 @@ Before changing phones or reinstalling, save your library with **Storage & backu
 <summary><b>Extras for tinkerers</b></summary>
 <br />
 
-- **Continue on another phone:** needs your own free [Cloudflare Worker](https://github.com/baotrq/SimpMusic/tree/main/scripts/playback-sync-worker), then fill in **Accounts & sync → Playback sync**. It stays off until you do, and nothing is sent anywhere before that.
+- **Continue on another phone:** needs your own free Cloudflare Worker, then fill in **Accounts & sync → Playback sync**. It stays off until you do, and nothing is sent anywhere before that.
 - **Car mode:** under **Developer option**. Keeps your songs offline and loads faster, using more data and storage.
 - **LED strip:** inside Car mode, for Bluetooth `LEDDMX` controllers only.
 
@@ -179,8 +178,6 @@ Before changing phones or reinstalling, save your library with **Storage & backu
 > [!NOTE]
 > **SimpMusic** is a FOSS YouTube Music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
 > This part shows only **what I changed in my fork**: 39 commits across the app and its `core` module, October 12 – November 6, 2026.
-> All of the fork's code is public in [baotrq/SimpMusic](https://github.com/baotrq/SimpMusic/tree/main) and [baotrq/core](https://github.com/baotrq/core/tree/main).
-
 ![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin_Multiplatform-1B1B1F?style=flat-square&logo=kotlin)
 ![Compose](https://img.shields.io/badge/Compose_Multiplatform-1B1B1F?style=flat-square&logo=jetpackcompose)
 ![Bluetooth LE](https://img.shields.io/badge/Bluetooth_LE-1B1B1F?style=flat-square&logo=bluetooth)
