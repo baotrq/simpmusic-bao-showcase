@@ -14,13 +14,13 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 <br />
 
-[![Releases](https://img.shields.io/badge/All_releases-14202F?style=for-the-badge&logo=github)](https://github.com/baotrq/simpmusic-bao-showcase/releases)
-[![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-14202F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
-[![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-4B2238?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
+[![Releases](https://img.shields.io/badge/All_releases-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/simpmusic-bao-showcase/releases)
+[![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
+[![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-2B2B2E?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
 
-![Platform](https://img.shields.io/badge/Android_8%2B-1B3A54?style=flat-square&logo=android&logoColor=white)
-![Languages](https://img.shields.io/badge/English%20·%20Tiếng%20Việt-1B3A54?style=flat-square)
-![License](https://img.shields.io/badge/GPL--3.0-1B3A54?style=flat-square)
+![Platform](https://img.shields.io/badge/Android_8%2B-2B2B2E?style=flat-square&logo=android&logoColor=white)
+![Languages](https://img.shields.io/badge/English%20·%20Tiếng%20Việt-2B2B2E?style=flat-square)
+![License](https://img.shields.io/badge/GPL--3.0-2B2B2E?style=flat-square)
 
 <sub>Installs next to the official SimpMusic app and keeps its own data.</sub>
 
