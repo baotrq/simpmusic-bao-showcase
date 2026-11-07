@@ -2,31 +2,174 @@
 
 # Nhạc Nhẽo
 
-**My daily-driver build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic).**
-A car LED strip that follows the album art, music that follows me from phone to phone,
-and a player rebuilt for Samsung DeX.
+### The whole of YouTube Music, in a player that feels handmade.
+
+No ads. Music keeps playing with the screen off. Lyrics that light up word by word, translated into your language.<br />
+A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned by someone who uses it every day.
 
 <br />
 
-[![Download the latest APK](https://img.shields.io/badge/download-latest_APK-2EA043?style=for-the-badge&logo=android&logoColor=white)](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)
-[![Fork](https://img.shields.io/badge/fork-baotrq%2FSimpMusic-1B1B1F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
-[![Releases](https://img.shields.io/badge/builds-bao--releases-FF3B5C?style=for-the-badge&logo=android&logoColor=white)](https://github.com/baotrq/SimpMusic/releases)
-[![Upstream](https://img.shields.io/badge/upstream-maxrave--dev%2FSimpMusic-5B5BD6?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
+[![Download the latest APK](https://img.shields.io/badge/Download-latest_APK-2EA043?style=for-the-badge&logo=android&logoColor=white)](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)
+[![All releases](https://img.shields.io/badge/All-releases-FF3B5C?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/releases)
+[![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-1B1B1F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
+
+<sub>Android 8 or newer · about 30 MB · free and open source (GPL-3.0)<br />Installs next to the official SimpMusic app and keeps its own data.</sub>
+
+<br />
+<br />
+
+<table>
+<tr>
+<td width="33%" align="center"><img src="assets/player-apple.jpg" width="240" alt="The Apple Music style player: full-width album art dissolving into the page, with the current lyric line above the progress bar" /><br /><b>Art that melts into the page</b></td>
+<td width="33%" align="center"><img src="assets/crossfade.jpg" width="240" alt="A crossfade between two songs: both covers side by side with glowing particles flowing between them" /><br /><b>Watch one song become the next</b></td>
+<td width="33%" align="center"><img src="assets/lyrics-synced.jpg" width="240" alt="Vietnamese lyrics over a blurred album cover, the current line bright and the others softly out of focus" /><br /><b>Lyrics you can sing along to</b></td>
+</tr>
+</table>
+
+</div>
+
+<br />
+
+## ✨ Why you'd want it
+
+- ⚡ **Music starts fast.** Tap to sound went from 3.10 s to 1.29 s on Wi-Fi, and from 4.40 s to 2.12 s on mobile data.
+- 🎨 **Three players, your pick.** Classic, Material 3 Expressive, or an Apple Music style with art that melts into the page.
+- 💿 **A crossfade you can see.** While two songs blend, their covers sit side by side and sparks of each cover's colour drift between them.
+- 🎤 **Lyrics done properly.** Synced word by word, romanized (pinyin and more), and AI translations written to be sung, not word-for-word.
+- ✍️ **Lyrics wrong? Fix them.** Pick another source for that one song, turn them off, or tap along to time them yourself.
+- 🎧 **Serious audio.** Up to 256 kbps with YouTube Premium, a ten-band equalizer, AutoEq headphone profiles, crossfade, DJ-style transitions.
+- 📥 **Offline and everywhere.** Downloads, SponsorBlock, Spotify Canvas, Google Cast, and song recognition from the search bar.
+- 🚗 **Made for real life.** Car mode with a self-filling offline library, a car LED strip that follows the album art, and music that follows me from phone to phone.
+
+<sub>Credit where it's due: the app itself, streaming, downloads, the equalizer, Cast, song recognition and much more come from <a href="https://github.com/maxrave-dev/SimpMusic">SimpMusic by maxrave-dev</a> and its contributors. What I added is listed in <a href="#under-the-hood">Under the hood</a>.</sub>
+
+<br />
+
+## 📲 Install
+
+1. Open this page **on your Android phone** and tap **[Download the latest APK](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)**.
+2. Open the downloaded `SimpMusic-Bao.apk`, from the notification or from **Files → Downloads**.
+3. If asked, allow installing from this source, then go back.
+4. Tap **Install**. If Google Play Protect warns you, choose **More details → Install anyway**. It warns because this build isn't from the Play Store.
+5. Open **Nhạc Nhẽo**. That's it: no account needed to start listening.
+
+<details>
+<summary><b>🇻🇳 Cách cài bằng tiếng Việt</b></summary>
+<br />
+
+1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)**.
+2. Khi tải xong, mở file `SimpMusic-Bao.apk` (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
+3. Nếu điện thoại hỏi, chọn **Cài đặt** → bật **Cho phép từ nguồn này**, rồi quay lại.
+4. Bấm **Cài đặt**. Nếu Google Play Protect cảnh báo, chọn **Thêm chi tiết → Vẫn cài đặt**.
+5. Mở ứng dụng **Nhạc Nhẽo** là nghe được ngay, không cần tài khoản.
+
+Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
+
+</details>
+
+<sub>Most phones want the file above (arm64). If it won't install, use the <code>universal</code> APK from <a href="https://github.com/baotrq/SimpMusic/releases">Releases</a>; it runs on any device but is larger.</sub>
+
+<br />
+
+## 🧭 Quick guide
+
+All of this lives in **Settings** (the gear on Home).
+
+### Sign in, if you want your own music
+
+**Accounts & sync → YouTube Account → Add an account.** You get your own Home, playlists and likes. You can skip this and just search and play. Your sign-in stays on your phone: there is no server of mine involved.
+
+### Make it look like you
+
+<table>
+<tr>
+<td width="62%" valign="top">
+
+**Appearance → Now Playing style** opens real previews; tap one to apply it. **Lyrics style** sits right next to it. The Apple Music looks need Android 12 or newer.
+
+**Appearance → Language** switches the app's language.
+
+The player opens in the Classic style, so try the others: the Apple Music one is what I use.
+
+</td>
+<td width="38%" align="center"><img src="assets/style-picker.jpg" width="220" alt="The Now Playing style page, previewing the Material 3 Expressive and Apple Music players" /></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center"><img src="assets/player-classic.jpg" width="220" alt="The Classic player" /><br /><b>Classic</b></td>
+<td width="33%" align="center"><img src="assets/player-m3.jpg" width="220" alt="The Material 3 Expressive player" /><br /><b>Material 3 Expressive</b></td>
+<td width="33%" align="center"><img src="assets/player-apple.jpg" width="220" alt="The Apple Music style player" /><br /><b>Apple Music</b></td>
+</tr>
+</table>
+
+### Get the best sound
+
+<table>
+<tr>
+<td width="38%" align="center"><img src="assets/quality.jpg" width="220" alt="The audio quality popup, from Low 66 kbps to High 256 kbps with YouTube Premium" /></td>
+<td width="62%" valign="top">
+
+In **Audio & playback**:
+
+- **Quality**: the 256 kbps options need YouTube Premium; everyone can pick up to Medium
+- **Crossfade**: turn it on to get the two-cover animation, in the Apple Music style
+- **Equalizer**: draw a curve, pick a preset, or import a profile for your exact headphones
+
+</td>
+</tr>
+</table>
+
+### Lyrics
+
+- **Translate them:** add your own Gemini or OpenAI-compatible key under **Lyrics & AI → Your AI API Key**, then turn on **Use AI Lyric Translation** and set **Translation Language**. Each new translation uses your key.
+- **Wrong lyrics?** In the player, tap **⋯ → Lyrics** to pick another source for that song, turn lyrics off for it, or use **Tap along**: the song restarts and you tap as each line begins.
+
+### Stay up to date
+
+<table>
+<tr>
+<td width="62%" valign="top">
+
+**About → Check for new build** finds the newest version and installs it over the old one, keeping your data. The app doesn't check by itself, so look in here now and then.
+
+Before changing phones or reinstalling, save your library with **Storage & backup**, and restore from the same place.
+
+</td>
+<td width="38%" align="center"><img src="assets/about-update.jpg" width="220" alt="The About page with Check for new build" /></td>
+</tr>
+</table>
+
+<details>
+<summary><b>Extras for tinkerers</b></summary>
+<br />
+
+- **Continue on another phone:** needs your own free [Cloudflare Worker](https://github.com/baotrq/SimpMusic/tree/main/scripts/playback-sync-worker), then fill in **Accounts & sync → Playback sync**. It stays off until you do, and nothing is sent anywhere before that.
+- **Car mode:** under **Developer option**. Keeps your songs offline and loads faster, using more data and storage.
+- **LED strip:** inside Car mode, for Bluetooth `LEDDMX` controllers only.
+
+</details>
+
+> [!NOTE]
+> This is an unofficial, personal build, not affiliated with YouTube, Google or the SimpMusic team, and it's provided as is. It uses YouTube's unofficial API, which can change at any time, and signing in with your account is your own call. Found a bug in this build? Tell me, not the SimpMusic team.
+
+<br />
+
+<a id="under-the-hood"></a>
+
+## 🛠️ Under the hood: what I built
+
+> [!NOTE]
+> **SimpMusic** is a FOSS YouTube Music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
+> This part shows only **what I changed in my fork**: 39 commits across the app and its `core` module, October 12 – November 6, 2026.
+> All of the fork's code is public in [baotrq/SimpMusic](https://github.com/baotrq/SimpMusic/tree/main) and [baotrq/core](https://github.com/baotrq/core/tree/main).
 
 ![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin_Multiplatform-1B1B1F?style=flat-square&logo=kotlin)
 ![Compose](https://img.shields.io/badge/Compose_Multiplatform-1B1B1F?style=flat-square&logo=jetpackcompose)
 ![Bluetooth LE](https://img.shields.io/badge/Bluetooth_LE-1B1B1F?style=flat-square&logo=bluetooth)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers_+_D1-1B1B1F?style=flat-square&logo=cloudflare)
 ![Gemini](https://img.shields.io/badge/Gemini-1B1B1F?style=flat-square&logo=googlegemini)
-
-<sub>The button always downloads the newest build. Android, arm64; other devices can take the <code>universal</code> APK from <a href="https://github.com/baotrq/SimpMusic/releases">Releases</a>.<br />It installs as <b>Nhạc Nhẽo</b>, next to the official SimpMusic app, and keeps its own data.</sub>
-
-</div>
-
-> [!NOTE]
-> **SimpMusic** is a FOSS YouTube Music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
-> This page shows only **what I changed in my fork**: 39 commits across the app and its `core` module, October 12 – November 6, 2026.
-> All of the fork's code is public in [baotrq/SimpMusic](https://github.com/baotrq/SimpMusic/tree/main) and [baotrq/core](https://github.com/baotrq/core/tree/main).
 
 <p align="center"><img src="assets/led-car.gif" alt="In a car at night: the app on the dashboard screen, and the LED strip along the dash changes colour to match each new song's album art" /></p>
 <p align="center"><sub>Real footage: the dash strip goes white for a black-and-white cover, then pink, red and blue as the covers change.</sub></p>
@@ -39,45 +182,6 @@ and a player rebuilt for Samsung DeX.
 </tr>
 </table>
 <p align="center"><sub>Screen recordings from my phone.</sub></p>
-
-<br />
-
-## ✨ What you get
-
-SimpMusic is already a great app; my fork builds on top of it. To be clear about who made what:
-
-<table>
-<tr>
-<th width="50%">From SimpMusic (upstream)</th>
-<th width="50%">Added in my fork</th>
-</tr>
-<tr>
-<td valign="top">
-
-- 🎧 **The whole YouTube Music catalogue, ad-free**, with background playback
-- 🔊 **Full audio quality**: pick the stream quality, or prefer a 320 kbps stream where one exists
-- 🫧 **Liquid glass** bottom bar and mini player
-- 🎤 **Synced lyrics** from several providers, plus AI lyric translation
-- 🎬 **Spotify Canvas** and animated album covers behind the player
-- ⏭️ SponsorBlock, AutoEq, downloads, and a desktop app
-
-</td>
-<td valign="top">
-
-- 💡 **Car LED strip** that follows the album art
-- 📱 **Continue on the other phone**, with end-to-end-encrypted sign-in sync
-- 🎞️ **Animations**: the player grows out of the mini bar, carousel page transitions, a song pager in the bar
-- 🈶 **Romanized lyrics light up word by word** (pinyin and more), and AI translations that are **natural and singable**
-- ✍️ **Tap-along** to time your own lyrics, and per-song lyric sources
-- 🖥️ A layout for **Samsung DeX** and wide screens
-- 🚙 **Car mode** with a self-filling offline library
-- ⚡ **New songs start about twice as fast**
-- 💿 **A two-cover crossfade** you can watch happen
-- ⚙️ **Settings split into pages**, with real style previews
-
-</td>
-</tr>
-</table>
 
 <br />
 
