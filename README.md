@@ -172,6 +172,18 @@ Before changing phones or reinstalling, save your library with **Storage & backu
 
 <br />
 
+## 💖 Donate
+
+Nhạc Nhẽo is free, with no ads. I build and update it myself, so if you enjoy it, a small donation helps me keep updating it.
+
+<sub>Nhạc Nhẽo miễn phí và không có quảng cáo. Mình tự làm và cập nhật ứng dụng này, nên nếu bạn thích, một khoản ủng hộ nhỏ sẽ giúp mình tiếp tục cập nhật.</sub>
+
+<img src="assets/donate-qr.png" width="280" alt="Donation QR code for MoMo and Vietnamese banking apps" />
+
+Scan with MoMo or a Vietnamese banking app. <sub>Quét bằng MoMo hoặc ứng dụng ngân hàng Việt Nam.</sub>
+
+<br />
+
 <a id="under-the-hood"></a>
 
 ## 🛠️ Under the hood: what I built
