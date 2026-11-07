@@ -1,31 +1,28 @@
 <div align="center">
 
-<a href="https://github.com/baotrq/SimpMusic/releases/latest"><img src="assets/download.svg" width="640" alt="Download here: latest version for Android, about 30 MB" /></a>
+<img src="assets/hero.png" alt="Nhạc Nhẽo for Android: all of YouTube Music, in a player that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
 
 # Nhạc Nhẽo
 
-### The whole of YouTube Music, in a player that feels handmade.
-
-No ads. Music keeps playing with the screen off. Lyrics that light up word by word, translated into your language.<br />
-A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned by someone who uses it every day.
+**All of YouTube Music, in a player that feels handmade.**
+No ads. Music keeps playing with the screen off. Lyrics that light up word by word, translated into your language.
 
 <br />
 
-[![All releases](https://img.shields.io/badge/All-releases-FF3B5C?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/releases)
-[![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-1B1B1F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
-
-<sub>Android 8 or newer · about 30 MB · free and open source (GPL-3.0)<br />Installs next to the official SimpMusic app and keeps its own data.</sub>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk"><img src="assets/download.svg" width="400" alt="Download for Android, about 30 MB" /></a>
 
 <br />
 <br />
 
-<table>
-<tr>
-<td width="33%" align="center"><img src="assets/player-apple.jpg" width="240" alt="The Apple Music style player: full-width album art dissolving into the page, with the current lyric line above the progress bar" /><br /><b>Art that melts into the page</b></td>
-<td width="33%" align="center"><img src="assets/crossfade.jpg" width="240" alt="A crossfade between two songs: both covers side by side with glowing particles flowing between them" /><br /><b>Watch one song become the next</b></td>
-<td width="33%" align="center"><img src="assets/lyrics-synced.jpg" width="240" alt="Vietnamese lyrics over a blurred album cover, the current line bright and the others softly out of focus" /><br /><b>Lyrics you can sing along to</b></td>
-</tr>
-</table>
+[![Releases](https://img.shields.io/badge/All_releases-14202F?style=for-the-badge&logo=github)](https://github.com/baotrq/simpmusic-bao-showcase/releases)
+[![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-14202F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
+[![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-4B2238?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
+
+![Platform](https://img.shields.io/badge/Android_8%2B-1B3A54?style=flat-square&logo=android&logoColor=white)
+![Languages](https://img.shields.io/badge/English%20·%20Tiếng%20Việt-1B3A54?style=flat-square)
+![License](https://img.shields.io/badge/GPL--3.0-1B3A54?style=flat-square)
+
+<sub>Installs next to the official SimpMusic app and keeps its own data.</sub>
 
 </div>
 
@@ -42,14 +39,26 @@ A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned
 - 📥 **Offline and everywhere.** Downloads, SponsorBlock, Spotify Canvas, Google Cast, and song recognition from the search bar.
 - 🚗 **Made for real life.** Car mode with a self-filling offline library, a car LED strip that follows the album art, and music that follows me from phone to phone.
 
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center"><img src="assets/player-apple.jpg" width="240" alt="The Apple Music style player: full-width album art dissolving into the page, with the current lyric line above the progress bar" /><br /><b>Art that melts into the page</b></td>
+<td width="33%" align="center"><img src="assets/crossfade.jpg" width="240" alt="A crossfade between two songs: both covers side by side with glowing particles flowing between them" /><br /><b>Watch one song become the next</b></td>
+<td width="33%" align="center"><img src="assets/lyrics-synced.jpg" width="240" alt="Vietnamese lyrics over a blurred album cover, the current line bright and the others softly out of focus" /><br /><b>Lyrics you can sing along to</b></td>
+</tr>
+</table>
+
+</div>
+
 <sub>Credit where it's due: the app itself, streaming, downloads, the equalizer, Cast, song recognition and much more come from <a href="https://github.com/maxrave-dev/SimpMusic">SimpMusic by maxrave-dev</a> and its contributors. What I added is listed in <a href="#under-the-hood">Under the hood</a>.</sub>
 
 <br />
 
 ## 📲 Install
 
-1. Open this page **on your Android phone** and tap **[Download here](https://github.com/baotrq/SimpMusic/releases/latest)** to open the latest release.
-2. Scroll to **Assets** (tap it if it's closed), download the file ending in `arm64-v8a.apk`, then open it from the notification or from **Files → Downloads**.
+1. Open this page **on your Android phone** and tap **[Download](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk)**.
+2. Open the downloaded `SimpMusic-Bao.apk`, from the notification or from **Files → Downloads**.
 3. If asked, allow installing from this source, then go back.
 4. Tap **Install**. If Google Play Protect warns you, choose **More details → Install anyway**. It warns because this build isn't from the Play Store.
 5. Open **Nhạc Nhẽo**. That's it: no account needed to start listening.
@@ -58,8 +67,8 @@ A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned
 <summary><b>🇻🇳 Cách cài bằng tiếng Việt</b></summary>
 <br />
 
-1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/SimpMusic/releases/latest)** để mở bản phát hành mới nhất.
-2. Kéo xuống mục **Assets** (bấm vào nếu đang đóng), tải file có đuôi `arm64-v8a.apk`, rồi mở file đó (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
+1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk)**.
+2. Khi tải xong, mở file `SimpMusic-Bao.apk` (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
 3. Nếu điện thoại hỏi, chọn **Cài đặt** → bật **Cho phép từ nguồn này**, rồi quay lại.
 4. Bấm **Cài đặt**. Nếu Google Play Protect cảnh báo, chọn **Thêm chi tiết → Vẫn cài đặt**.
 5. Mở ứng dụng **Nhạc Nhẽo** là nghe được ngay, không cần tài khoản.
@@ -68,7 +77,7 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 
 </details>
 
-<sub>Most phones want the <code>arm64-v8a</code> file. If it won't install, use the <code>universal</code> file from the same list; it runs on any device but is larger.</sub>
+<sub>The button gets the arm64 build, which fits most phones. If it won't install, use the <code>universal</code> file from <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest">the latest release</a>; it runs on any device but is larger.</sub>
 
 <br />
 
@@ -395,7 +404,8 @@ player's cipher script is cached on disk.
 
 - **`bao-` releases** on the fork: a script builds and publishes one, and **refuses uncommitted or
   unpushed work**, so the APK always matches its tag
-- **One link that never goes stale**: [the download button](https://github.com/baotrq/SimpMusic/releases/latest) always opens the newest release
+- **One link that never goes stale**: every release carries the arm64 APK under a fixed name, so
+  [the download button](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk) always gets the newest
 - **In-app updates**: *Check for new build* in Settings → About compares the build's baked-in commit time
   with the newest `bao-` release and hands the APK to the system installer. Nothing checks at launch, so
   startup doesn't spend a weak connection on it
