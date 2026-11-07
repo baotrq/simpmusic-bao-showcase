@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.png" alt="Nhạc Nhẽo for Android: all of YouTube Music, in a player that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
+<img src="assets/banner-grey.png" alt="Nhạc Nhẽo for Android: all of YouTube Music, in a player that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
 
 # Nhạc Nhẽo
 
@@ -9,7 +9,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 <br />
 
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk"><img src="assets/download.svg" width="400" alt="Download for Android, about 30 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk"><img src="assets/download-grey.svg" width="400" alt="Download for Android, about 30 MB" /></a>
 
 <br />
 <br />
