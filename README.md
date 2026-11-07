@@ -10,7 +10,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.1/SimpMusic-2.5.7.msi"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 220 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.2/SimpMusic-2.5.8.msi"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 220 MB" /></a>
 
 **Android and Windows. There is no iPhone, iPad, Mac or Linux version.**<br />
 <sub>Dành cho Android và Windows. Không có bản cho iPhone, iPad, Mac hoặc Linux.</sub>
@@ -89,7 +89,7 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 
 ### Windows
 
-1. Download **[SimpMusic-2.5.7.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.1/SimpMusic-2.5.7.msi)** and open it.
+1. Download **[SimpMusic-2.5.8.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.2/SimpMusic-2.5.8.msi)** and open it.
 2. If Windows warns you, choose **More info → Run anyway**. It warns because this build isn't code-signed. No admin rights are needed.
 3. Click **Next**, wait for the install, then **Finish**. Nhạc Nhẽo opens by itself, and you'll find it in the Start Menu and on your desktop.
 
@@ -97,7 +97,7 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 <summary><b>🇻🇳 Cách cài trên Windows bằng tiếng Việt</b></summary>
 <br />
 
-1. Tải **[SimpMusic-2.5.7.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.1/SimpMusic-2.5.7.msi)** về rồi mở file.
+1. Tải **[SimpMusic-2.5.8.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.2/SimpMusic-2.5.8.msi)** về rồi mở file.
 2. Nếu Windows cảnh báo, chọn **More info → Run anyway**. Windows cảnh báo vì bản này chưa được ký số. Không cần quyền quản trị.
 3. Bấm **Next**, chờ cài xong rồi bấm **Finish**. Nhạc Nhẽo sẽ tự mở, và bạn có thể tìm thấy ứng dụng trong Start Menu và trên màn hình nền.
 
