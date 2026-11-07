@@ -178,6 +178,7 @@ Before changing phones or reinstalling, save your library with **Storage & backu
 > [!NOTE]
 > **SimpMusic** is a FOSS YouTube Music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
 > This part shows only **what I changed in my fork**: 39 commits across the app and its `core` module, October 12 – November 6, 2026.
+
 ![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin_Multiplatform-1B1B1F?style=flat-square&logo=kotlin)
 ![Compose](https://img.shields.io/badge/Compose_Multiplatform-1B1B1F?style=flat-square&logo=jetpackcompose)
 ![Bluetooth LE](https://img.shields.io/badge/Bluetooth_LE-1B1B1F?style=flat-square&logo=bluetooth)
