@@ -11,6 +11,9 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-grey.svg" width="400" alt="Download for Android, about 30 MB" /></a>
 
+**Android only. There is no iPhone or iPad version.**<br />
+<sub>Chỉ dành cho Android. Không có bản cho iPhone hoặc iPad.</sub>
+
 <br />
 <br />
 
@@ -18,7 +21,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 [![Source](https://img.shields.io/badge/Source-baotrq%2FSimpMusic-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
 [![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-2B2B2E?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
 
-![Platform](https://img.shields.io/badge/Android_8%2B-2B2B2E?style=flat-square&logo=android&logoColor=white)
+![Platform](https://img.shields.io/badge/Android_only_·_8%2B-2B2B2E?style=flat-square&logo=android&logoColor=white)
 ![Languages](https://img.shields.io/badge/English%20·%20Tiếng%20Việt-2B2B2E?style=flat-square)
 ![License](https://img.shields.io/badge/GPL--3.0-2B2B2E?style=flat-square)
 
@@ -56,6 +59,9 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 
 ## 📲 Install
+
+> [!IMPORTANT]
+> **Android only.** This won't install on an iPhone or iPad. / **Chỉ dành cho Android**, không cài được trên iPhone hoặc iPad.
 
 1. Open this page **on your Android phone** and tap **[Download](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk)**.
 2. Open the downloaded `SimpMusic-arm64-v8a.apk`, from the notification or from **Files → Downloads**.
