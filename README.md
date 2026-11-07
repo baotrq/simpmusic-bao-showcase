@@ -9,7 +9,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 <br />
 
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk"><img src="assets/download-grey.svg" width="400" alt="Download for Android, about 30 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-grey.svg" width="400" alt="Download for Android, about 30 MB" /></a>
 
 <br />
 <br />
@@ -57,8 +57,8 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 ## 📲 Install
 
-1. Open this page **on your Android phone** and tap **[Download](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk)**.
-2. Open the downloaded `SimpMusic-Bao.apk`, from the notification or from **Files → Downloads**.
+1. Open this page **on your Android phone** and tap **[Download](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk)**.
+2. Open the downloaded `SimpMusic-arm64-v8a.apk`, from the notification or from **Files → Downloads**.
 3. If asked, allow installing from this source, then go back.
 4. Tap **Install**. If Google Play Protect warns you, choose **More details → Install anyway**. It warns because this build isn't from the Play Store.
 5. Open **Nhạc Nhẽo**. That's it: no account needed to start listening.
@@ -67,8 +67,8 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <summary><b>🇻🇳 Cách cài bằng tiếng Việt</b></summary>
 <br />
 
-1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk)**.
-2. Khi tải xong, mở file `SimpMusic-Bao.apk` (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
+1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk)**.
+2. Khi tải xong, mở file `SimpMusic-arm64-v8a.apk` (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
 3. Nếu điện thoại hỏi, chọn **Cài đặt** → bật **Cho phép từ nguồn này**, rồi quay lại.
 4. Bấm **Cài đặt**. Nếu Google Play Protect cảnh báo, chọn **Thêm chi tiết → Vẫn cài đặt**.
 5. Mở ứng dụng **Nhạc Nhẽo** là nghe được ngay, không cần tài khoản.
@@ -405,7 +405,7 @@ player's cipher script is cached on disk.
 - **`bao-` releases** on the fork: a script builds and publishes one, and **refuses uncommitted or
   unpushed work**, so the APK always matches its tag
 - **One link that never goes stale**: every release carries the arm64 APK under a fixed name, so
-  [the download button](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-Bao.apk) always gets the newest
+  [the download button](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk) always gets the newest
 - **In-app updates**: *Check for new build* in Settings → About compares the build's baked-in commit time
   with the newest `bao-` release and hands the APK to the system installer. Nothing checks at launch, so
   startup doesn't spend a weak connection on it
