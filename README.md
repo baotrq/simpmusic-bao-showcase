@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner-grey.png" alt="Nhạc Nhẽo for Android: all of YouTube Music, in a player that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
+<img src="assets/banner-grey.png" alt="Nhạc Nhẽo for Android and Windows: all of YouTube Music, in a player that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
 
 # Nhạc Nhẽo
 
@@ -9,10 +9,11 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 <br />
 
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-grey.svg" width="400" alt="Download for Android, about 30 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.1/SimpMusic-2.5.7.msi"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 220 MB" /></a>
 
-**Android only. There is no iPhone or iPad version.**<br />
-<sub>Chỉ dành cho Android. Không có bản cho iPhone hoặc iPad.</sub>
+**Android and Windows. There is no iPhone, iPad, Mac or Linux version.**<br />
+<sub>Dành cho Android và Windows. Không có bản cho iPhone, iPad, Mac hoặc Linux.</sub>
 
 <br />
 <br />
@@ -20,7 +21,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 [![Releases](https://img.shields.io/badge/All_releases-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/simpmusic-bao-showcase/releases)
 [![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-2B2B2E?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
 
-![Platform](https://img.shields.io/badge/Android_only_·_8%2B-2B2B2E?style=flat-square&logo=android&logoColor=white)
+![Platform](https://img.shields.io/badge/Android_8%2B_·_Windows-2B2B2E?style=flat-square&logo=android&logoColor=white)
 ![Languages](https://img.shields.io/badge/English%20·%20Tiếng%20Việt-2B2B2E?style=flat-square)
 ![License](https://img.shields.io/badge/GPL--3.0-2B2B2E?style=flat-square)
 
@@ -60,7 +61,9 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 ## 📲 Install
 
 > [!IMPORTANT]
-> **Android only.** This won't install on an iPhone or iPad. / **Chỉ dành cho Android**, không cài được trên iPhone hoặc iPad.
+> **Android and Windows only.** This won't install on an iPhone, iPad, Mac or Linux. / **Chỉ dành cho Android và Windows**, không cài được trên iPhone, iPad, Mac hoặc Linux.
+
+### Android
 
 1. Open this page **on your Android phone** and tap **[Download](https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk)**.
 2. Open the downloaded `SimpMusic-arm64-v8a.apk`, from the notification or from **Files → Downloads**.
@@ -83,6 +86,22 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 </details>
 
 <sub>The button gets the arm64 build, which fits most phones. If it won't install, use the <code>universal</code> file from <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest">the latest release</a>; it runs on any device but is larger.</sub>
+
+### Windows
+
+1. Download **[SimpMusic-2.5.7.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.1/SimpMusic-2.5.7.msi)** and open it.
+2. If Windows warns you, choose **More info → Run anyway**. It warns because this build isn't code-signed. No admin rights are needed.
+3. Click **Next**, wait for the install, then **Finish**. Nhạc Nhẽo opens by itself, and you'll find it in the Start Menu and on your desktop.
+
+<details>
+<summary><b>🇻🇳 Cách cài trên Windows bằng tiếng Việt</b></summary>
+<br />
+
+1. Tải **[SimpMusic-2.5.7.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.1/SimpMusic-2.5.7.msi)** về rồi mở file.
+2. Nếu Windows cảnh báo, chọn **More info → Run anyway**. Windows cảnh báo vì bản này chưa được ký số. Không cần quyền quản trị.
+3. Bấm **Next**, chờ cài xong rồi bấm **Finish**. Nhạc Nhẽo sẽ tự mở, và bạn có thể tìm thấy ứng dụng trong Start Menu và trên màn hình nền.
+
+</details>
 
 <br />
 
