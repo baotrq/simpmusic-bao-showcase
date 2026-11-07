@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk"><img src="assets/download.svg" width="640" alt="Download here: latest version for Android, about 30 MB" /></a>
+<a href="https://github.com/baotrq/SimpMusic/releases/latest"><img src="assets/download.svg" width="640" alt="Download here: latest version for Android, about 30 MB" /></a>
 
 # Nhạc Nhẽo
 
@@ -48,8 +48,8 @@ A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned
 
 ## 📲 Install
 
-1. Open this page **on your Android phone** and tap **[Download the latest APK](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)**.
-2. Open the downloaded `SimpMusic-Bao.apk`, from the notification or from **Files → Downloads**.
+1. Open this page **on your Android phone** and tap **[Download here](https://github.com/baotrq/SimpMusic/releases/latest)** to open the latest release.
+2. Scroll to **Assets** (tap it if it's closed), download the file ending in `arm64-v8a.apk`, then open it from the notification or from **Files → Downloads**.
 3. If asked, allow installing from this source, then go back.
 4. Tap **Install**. If Google Play Protect warns you, choose **More details → Install anyway**. It warns because this build isn't from the Play Store.
 5. Open **Nhạc Nhẽo**. That's it: no account needed to start listening.
@@ -58,8 +58,8 @@ A personal build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic), tuned
 <summary><b>🇻🇳 Cách cài bằng tiếng Việt</b></summary>
 <br />
 
-1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)**.
-2. Khi tải xong, mở file `SimpMusic-Bao.apk` (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
+1. Mở trang này **trên điện thoại Android** và bấm **[tải về](https://github.com/baotrq/SimpMusic/releases/latest)** để mở bản phát hành mới nhất.
+2. Kéo xuống mục **Assets** (bấm vào nếu đang đóng), tải file có đuôi `arm64-v8a.apk`, rồi mở file đó (trong thông báo, hoặc ứng dụng **Tệp / Files → Tải xuống**).
 3. Nếu điện thoại hỏi, chọn **Cài đặt** → bật **Cho phép từ nguồn này**, rồi quay lại.
 4. Bấm **Cài đặt**. Nếu Google Play Protect cảnh báo, chọn **Thêm chi tiết → Vẫn cài đặt**.
 5. Mở ứng dụng **Nhạc Nhẽo** là nghe được ngay, không cần tài khoản.
@@ -68,7 +68,7 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 
 </details>
 
-<sub>Most phones want the file above (arm64). If it won't install, use the <code>universal</code> APK from <a href="https://github.com/baotrq/SimpMusic/releases">Releases</a>; it runs on any device but is larger.</sub>
+<sub>Most phones want the <code>arm64-v8a</code> file. If it won't install, use the <code>universal</code> file from the same list; it runs on any device but is larger.</sub>
 
 <br />
 
@@ -395,8 +395,7 @@ player's cipher script is cached on disk.
 
 - **`bao-` releases** on the fork: a script builds and publishes one, and **refuses uncommitted or
   unpushed work**, so the APK always matches its tag
-- **One link that never goes stale**: every release also carries the arm64 APK under a fixed name, so
-  [the download link](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk) always gets the newest
+- **One link that never goes stale**: [the download button](https://github.com/baotrq/SimpMusic/releases/latest) always opens the newest release
 - **In-app updates**: *Check for new build* in Settings → About compares the build's baked-in commit time
   with the newest `bao-` release and hands the APK to the system installer. Nothing checks at launch, so
   startup doesn't spend a weak connection on it
