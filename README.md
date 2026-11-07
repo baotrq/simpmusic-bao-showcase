@@ -1,6 +1,6 @@
 <div align="center">
 
-# SimpMusic (Bao)
+# Nhạc Nhẽo
 
 **My daily-driver build of [SimpMusic](https://github.com/maxrave-dev/SimpMusic).**
 A car LED strip that follows the album art, music that follows me from phone to phone,
@@ -8,6 +8,7 @@ and a player rebuilt for Samsung DeX.
 
 <br />
 
+[![Download the latest APK](https://img.shields.io/badge/download-latest_APK-2EA043?style=for-the-badge&logo=android&logoColor=white)](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk)
 [![Fork](https://img.shields.io/badge/fork-baotrq%2FSimpMusic-1B1B1F?style=for-the-badge&logo=github)](https://github.com/baotrq/SimpMusic/tree/main)
 [![Releases](https://img.shields.io/badge/builds-bao--releases-FF3B5C?style=for-the-badge&logo=android&logoColor=white)](https://github.com/baotrq/SimpMusic/releases)
 [![Upstream](https://img.shields.io/badge/upstream-maxrave--dev%2FSimpMusic-5B5BD6?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
@@ -18,12 +19,14 @@ and a player rebuilt for Samsung DeX.
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers_+_D1-1B1B1F?style=flat-square&logo=cloudflare)
 ![Gemini](https://img.shields.io/badge/Gemini-1B1B1F?style=flat-square&logo=googlegemini)
 
+<sub>The button always downloads the newest build. Android, arm64; other devices can take the <code>universal</code> APK from <a href="https://github.com/baotrq/SimpMusic/releases">Releases</a>.<br />It installs as <b>Nhạc Nhẽo</b>, next to the official SimpMusic app, and keeps its own data.</sub>
+
 </div>
 
 > [!NOTE]
 > **SimpMusic** is a FOSS YouTube Music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
-> This page shows only **what I changed in my fork**: 26 commits across the app and its `core` module, October 12–17, 2026.
-> All of the fork's code is public in [baotrq/SimpMusic](https://github.com/baotrq/SimpMusic/tree/main) and [baotrq/core](https://github.com/baotrq/core/tree/bao/ai-translation).
+> This page shows only **what I changed in my fork**: 39 commits across the app and its `core` module, October 12 – November 6, 2026.
+> All of the fork's code is public in [baotrq/SimpMusic](https://github.com/baotrq/SimpMusic/tree/main) and [baotrq/core](https://github.com/baotrq/core/tree/main).
 
 <p align="center"><img src="assets/led-car.gif" alt="In a car at night: the app on the dashboard screen, and the LED strip along the dash changes colour to match each new song's album art" /></p>
 <p align="center"><sub>Real footage: the dash strip goes white for a black-and-white cover, then pink, red and blue as the covers change.</sub></p>
@@ -68,6 +71,9 @@ SimpMusic is already a great app; my fork builds on top of it. To be clear about
 - ✍️ **Tap-along** to time your own lyrics, and per-song lyric sources
 - 🖥️ A layout for **Samsung DeX** and wide screens
 - 🚙 **Car mode** with a self-filling offline library
+- ⚡ **New songs start about twice as fast**
+- 💿 **A two-cover crossfade** you can watch happen
+- ⚙️ **Settings split into pages**, with real style previews
 
 </td>
 </tr>
@@ -132,7 +138,7 @@ These came from testing the controller from a laptop before writing any app code
 - 🎚️ **It has 32 coarse brightness levels and no fade of its own.** A "fade through dark" between songs
   looked stepped, so I built it, tested it, and removed it.
 
-The LED setting lives inside **Car mode** (below), first in Settings on Android, with a live swatch
+The LED setting lives inside **Car mode** (below), under Developer options on Android, with a live swatch
 of what the strip is showing and a scanner that lists `LEDDMX` controllers nearest-first.
 
 <br />
@@ -173,7 +179,8 @@ so a new install signs itself in:
 - **Newest wins, and sync only adds.** A sign-out or a cleared key stays on its own device; a blank never overwrites a filled-in value
 - **Nothing uploads until the first pull answers**, so a fresh install or an offline phone can't overwrite good settings with empty ones
 - **AI-translated lyrics are shared too**: a song translated on one phone isn't paid for again on the other
-- Per-song lyric fixes and my own timed lyrics sync the same way, one record per song
+- Per-song lyric fixes and my own timed lyrics sync the same way, one record per song. A phone without
+  my lyrics can't erase them elsewhere: a removal has to be stated outright, and an overwritten file keeps a `.bak` copy
 
 <br />
 
@@ -191,6 +198,38 @@ so a new install signs itself in:
   song that's already loaded opens it instead of restarting it, and a 16:9 video thumbnail no longer
   jumps shape when the player closes. The close spring also settles within 0.02% instead of 1%, which
   used to snap the last ~20 px.
+
+<br />
+
+## ⚡ Faster starts, and a crossfade you can see
+
+**Tap to audio, about twice as fast** (on a phone, signed in, itag 141):
+
+| Network | Before | After |
+| :--- | ---: | ---: |
+| Wi-Fi | 3.10 s | 1.29 s |
+| Mobile data | 4.40 s | 2.12 s |
+
+- The Tidal search for BPM and key now runs in the background instead of holding up the stream; crossfade asks again when a fade is due
+- The extractor starts alongside the WEB_REMIX request, and a music video's audio and video sources share one extraction
+- Dropped a HEAD check that repeated the extractor's own
+
+**The two-cover crossfade**, in the Apple Music style player: while two songs blend, the old and new
+covers sit side by side with glowing particles flowing between them in each cover's colours. When the
+fade ends, the new cover grows back into the full artwork. The "Crossfading" label is now a word picked
+per fade (Mixing, Cooking, ...).
+
+<br />
+
+## ⚙️ Settings and Home
+
+- **Settings is now pages**: a main page of six categories plus Developer options, each opening its own page and sliding like the rest of the app. Desktop shows the list and the page side by side
+- **Style pickers show real screenshots**: Now Playing style and Lyrics style open pages of them, and a tap applies one
+- **Choices apply on tap**: pick-one and pick-several settings open a popup that stays open, and long lists get an accent-insensitive search
+- **Names instead of codes**: country shows its flag and full name, and translation and subtitle languages are picked by name instead of typed as a code
+- **A dial for lyrics timing**: the offset large, -/+10 ms buttons, a ±2 s slider and Reset
+- **Vietnamese throughout**: the 119 strings of the fork's own features that were still English
+- **Home's song shelves are found by shape, not title**: YouTube names the Quick picks shelf differently from load to load, so matching the title made its grid come and go. Now every all-songs shelf with 4 rows gets the grid, in every language
 
 <br />
 
@@ -224,6 +263,7 @@ with the singer), and a **Vietnamese translation** from my rewritten prompt, wri
 - **Fixed a Spotify matching bug** in `core`: the search compared milliseconds against seconds, so no
   track ever matched and the top hit was taken, usually the *original* song for a remix, with the
   original's timing. Lyrics and canvas now match within 5 s
+- **"No lyrics" per song**, for songs every provider gets wrong. It syncs between devices, and my own timed lyrics still win over it
 - A provider returning plain lyrics no longer ends the lookup: the chain keeps looking for a timed
   version first
 
@@ -250,10 +290,16 @@ player's cipher script is cached on disk.
 
 - **`bao-` releases** on the fork: a script builds and publishes one, and **refuses uncommitted or
   unpushed work**, so the APK always matches its tag
-- **In-app updates**: the build compares its own baked-in commit time with the newest `bao-` release
-  and hands the APK to the system installer
-- Versioned **2.3.0.x**: upstream's release plus a fork rebuild number, so it's always clear which
+- **One link that never goes stale**: every release also carries the arm64 APK under a fixed name, so
+  [the download link](https://github.com/baotrq/SimpMusic/releases/latest/download/SimpMusic-Bao.apk) always gets the newest
+- **In-app updates**: *Check for new build* in Settings → About compares the build's baked-in commit time
+  with the newest `bao-` release and hands the APK to the system installer. Nothing checks at launch, so
+  startup doesn't spend a weak connection on it
+- **One signing key on every machine**: the script refuses to publish without it, so any build can update any phone
+- Versioned **2.5.0.x**: upstream's release plus a fork rebuild number, so it's always clear which
   upstream it tracks. The upstream update check still points at upstream's releases
+- **Upstream 2.5.0 merged**, keeping what's mine where the two collided: my Home header and shelf order, and my
+  Apple Music style player with upstream's like button added
 
 <details>
 <summary><b>An experiment I reverted: AutoMix</b></summary>
@@ -267,7 +313,7 @@ I reverted it the same day; it's kept in the history as an experiment.
 
 <br />
 
-## 🗓️ Six days
+## 🗓️ Timeline
 
 | Day | What landed |
 | :--- | :--- |
@@ -276,11 +322,16 @@ I reverted it the same day; it's kept in the history as an experiment.
 | **Oct 14** | 💡 **LED strip sync**, continue on the other phone, encrypted sign-in sync, in-app updates, wide-window bar, glass polish |
 | **Oct 16** | Per-song lyrics, tap-along, merged song + video search; AutoMix tried and reverted |
 | **Oct 17** | Car mode with the offline library; faster launch on weak networks |
+| **Oct 31** | Two-cover crossfade, safer lyrics sync, "No lyrics" per song |
+| **Nov 2** | Merged upstream 2.5.0 |
+| **Nov 3** | Settings split into pages, style previews, Vietnamese for the fork's own features |
+| **Nov 4** | Choice popups, country and language names, offset dial, Quick picks grid by shape |
+| **Nov 6** | ⚡ New songs start about twice as fast |
 
 <div align="center">
 
-| 📝 26 commits | ➕ ~9.1k lines added | 🌿 9 feature branches | 📦 9 `bao-` releases |
-| :---: | :---: | :---: | :---: |
+| 📝 39 commits | ➕ ~13.4k lines added | 📦 15 `bao-` releases |
+| :---: | :---: | :---: |
 
 </div>
 
