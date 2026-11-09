@@ -11,9 +11,11 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.3/SimpMusic-2.5.9.msi"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 220 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-aarch64.dmg"><img src="assets/download-mac.svg" width="340" alt="Download for Mac, about 230 MB" /></a>
 
-**Android and Windows. There is no iPhone, iPad, Mac or Linux version.**<br />
-<sub>Dành cho Android và Windows. Không có bản cho iPhone, iPad, Mac hoặc Linux.</sub>
+**Android, Windows and Mac. There is no iPhone, iPad or Linux version.**<br />
+<sub>Dành cho Android, Windows và Mac. Không có bản cho iPhone, iPad hoặc Linux.</sub><br />
+<sub>The Mac button is for Apple Silicon (M1 or later). Intel Mac? <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-amd64.dmg">Download the Intel version</a>.</sub>
 
 <br />
 <br />
@@ -21,7 +23,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 [![Releases](https://img.shields.io/badge/All_releases-2B2B2E?style=for-the-badge&logo=github)](https://github.com/baotrq/simpmusic-bao-showcase/releases)
 [![Based on SimpMusic](https://img.shields.io/badge/Based_on-SimpMusic-2B2B2E?style=for-the-badge)](https://github.com/maxrave-dev/SimpMusic)
 
-![Platform](https://img.shields.io/badge/Android_8%2B_·_Windows-2B2B2E?style=flat-square&logo=android&logoColor=white)
+![Platform](https://img.shields.io/badge/Android_8%2B_·_Windows_·_macOS_15%2B-2B2B2E?style=flat-square&logo=android&logoColor=white)
 ![Languages](https://img.shields.io/badge/English%20·%20Tiếng%20Việt-2B2B2E?style=flat-square)
 ![License](https://img.shields.io/badge/GPL--3.0-2B2B2E?style=flat-square)
 
@@ -61,7 +63,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 ## 📲 Install
 
 > [!IMPORTANT]
-> **Android and Windows only.** This won't install on an iPhone, iPad, Mac or Linux. / **Chỉ dành cho Android và Windows**, không cài được trên iPhone, iPad, Mac hoặc Linux.
+> **Android, Windows and Mac only.** This won't install on an iPhone, iPad or Linux. / **Chỉ dành cho Android, Windows và Mac**, không cài được trên iPhone, iPad hoặc Linux.
 
 ### Android
 
@@ -100,6 +102,36 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 1. Tải **[SimpMusic-2.5.9.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.3/SimpMusic-2.5.9.msi)** về rồi mở file.
 2. Nếu Windows cảnh báo, chọn **More info → Run anyway**. Windows cảnh báo vì bản này chưa được ký số. Không cần quyền quản trị.
 3. Bấm **Next**, chờ cài xong rồi bấm **Finish**. Nhạc Nhẽo sẽ tự mở, và bạn có thể tìm thấy ứng dụng trong Start Menu và trên màn hình nền.
+
+</details>
+
+<br />
+
+### Mac
+
+Needs macOS 15 Sequoia or later.
+
+1. Download the version for your Mac. Not sure which? Click the Apple menu → **About This Mac**: **Chip: Apple M…** means Apple Silicon, **Processor: Intel** means Intel.
+   - **[Apple Silicon (M1 or later)](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-aarch64.dmg)**
+   - **[Intel](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-amd64.dmg)**
+2. Open the downloaded `.dmg` and drag **SimpMusic** onto **Applications**.
+3. Open SimpMusic from Applications. If your Mac asks whether to open an app downloaded from the internet, click **Open**. It's signed and checked by Apple, so there's no other warning.
+
+On a Mac it's called **SimpMusic**, not Nhạc Nhẽo. If you already have the official SimpMusic desktop app, this replaces it and keeps its library and settings.
+
+<details>
+<summary><b>🇻🇳 Cách cài trên Mac bằng tiếng Việt</b></summary>
+<br />
+
+Cần macOS 15 Sequoia trở lên.
+
+1. Tải bản phù hợp với máy. Không chắc máy bạn là loại nào? Bấm menu Apple → **About This Mac** (Giới thiệu về máy Mac này): thấy **Chip: Apple M…** là Apple Silicon, thấy **Processor: Intel** là Intel.
+   - **[Apple Silicon (M1 trở lên)](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-aarch64.dmg)**
+   - **[Intel](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-amd64.dmg)**
+2. Mở file `.dmg` vừa tải rồi kéo **SimpMusic** vào **Applications**.
+3. Mở SimpMusic trong Applications. Nếu máy hỏi có mở ứng dụng tải từ internet không, bấm **Open**. Bản này đã được ký và được Apple kiểm tra, nên không có cảnh báo nào khác.
+
+Trên Mac, ứng dụng có tên **SimpMusic** chứ không phải Nhạc Nhẽo. Nếu máy bạn đã có bản SimpMusic chính thức, bản này sẽ thay thế nó và giữ nguyên thư viện cùng cài đặt.
 
 </details>
 
