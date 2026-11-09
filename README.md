@@ -10,7 +10,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-Windows-installer.zip"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 245 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-Windows-installer.zip"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 245 MB" /></a>
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-aarch64.dmg"><img src="assets/download-mac-apple-silicon.svg" width="340" alt="Download for Apple Silicon Mac (M1 or later), about 230 MB" /></a>
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-amd64.dmg"><img src="assets/download-mac-intel.svg" width="340" alt="Download for Intel Mac, about 260 MB" /></a>
 
@@ -92,7 +92,7 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 
 ### Windows
 
-1. Download **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-Windows-installer.zip)**.
+1. Download **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-Windows-installer.zip)**.
 2. Before opening it, right-click the zip → **Properties**, tick **Unblock** at the bottom, then **OK**. Skip this and Smart App Control blocks the installer. No **Unblock** box means the file isn't blocked, so just go on.
 3. Right-click the zip → **Extract All** → **Extract**.
 4. In the extracted folder, double-click **install.bat** and click **Yes** when Windows asks for admin rights. It installs the app and opens it, and you'll find it in the Start Menu as **SimpMusic**. If you had the old `.msi` version, it removes that too.
@@ -108,7 +108,7 @@ The app is signed with its own certificate rather than a paid one, so this PC ha
 <summary><b>🇻🇳 Cách cài trên Windows bằng tiếng Việt</b></summary>
 <br />
 
-1. Tải **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-Windows-installer.zip)** về.
+1. Tải **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-Windows-installer.zip)** về.
 2. Trước khi mở, chuột phải vào file zip → **Properties**, tích ô **Unblock** ở dưới cùng rồi bấm **OK**. Bỏ qua bước này thì Smart App Control sẽ chặn trình cài đặt. Nếu không thấy ô **Unblock** thì file không bị chặn, cứ làm tiếp.
 3. Chuột phải vào file zip → **Extract All** → **Extract**.
 4. Trong thư mục vừa giải nén, bấm đúp vào **install.bat** rồi chọn **Yes** khi Windows hỏi quyền quản trị. Ứng dụng sẽ được cài và tự mở, sau này bạn tìm thấy nó trong Start Menu với tên **SimpMusic**. Nếu máy có bản `.msi` cũ, bản đó cũng sẽ được gỡ.
