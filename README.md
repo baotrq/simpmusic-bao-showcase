@@ -10,7 +10,7 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.3/SimpMusic-2.5.9.msi"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 220 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-Windows-installer.zip"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 245 MB" /></a>
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-aarch64.dmg"><img src="assets/download-mac-apple-silicon.svg" width="340" alt="Download for Apple Silicon Mac (M1 or later), about 230 MB" /></a>
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-amd64.dmg"><img src="assets/download-mac-intel.svg" width="340" alt="Download for Intel Mac, about 260 MB" /></a>
 
@@ -92,17 +92,33 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 
 ### Windows
 
-1. Download **[SimpMusic-2.5.9.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.3/SimpMusic-2.5.9.msi)** and open it.
-2. If Windows warns you, choose **More info → Run anyway**. It warns because this build isn't code-signed. No admin rights are needed.
-3. Click **Next**, wait for the install, then **Finish**. Nhạc Nhẽo opens by itself, and you'll find it in the Start Menu and on your desktop.
+1. Download **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-Windows-installer.zip)**.
+2. Before opening it, right-click the zip → **Properties**, tick **Unblock** at the bottom, then **OK**. Skip this and Smart App Control blocks the installer. No **Unblock** box means the file isn't blocked, so just go on.
+3. Right-click the zip → **Extract All** → **Extract**.
+4. In the extracted folder, double-click **install.bat** and click **Yes** when Windows asks for admin rights. It installs the app and opens it, and you'll find it in the Start Menu as **SimpMusic**. If you had the old `.msi` version, it removes that too.
+
+If Windows still says Smart App Control blocked `install.bat`, install by hand from the same folder:
+
+1. Double-click **simpmusic.crt** → **Install Certificate** → **Local Machine** → **Next** → **Place all certificates in the following store** → **Browse** → **Trusted People** → **OK** → **Next** → **Finish**.
+2. Double-click the **.msix** file → **Install**.
+
+The app is signed with its own certificate rather than a paid one, so this PC has to be told to trust it once. That is what `install.bat` or step 1 does.
 
 <details>
 <summary><b>🇻🇳 Cách cài trên Windows bằng tiếng Việt</b></summary>
 <br />
 
-1. Tải **[SimpMusic-2.5.9.msi](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.3/SimpMusic-2.5.9.msi)** về rồi mở file.
-2. Nếu Windows cảnh báo, chọn **More info → Run anyway**. Windows cảnh báo vì bản này chưa được ký số. Không cần quyền quản trị.
-3. Bấm **Next**, chờ cài xong rồi bấm **Finish**. Nhạc Nhẽo sẽ tự mở, và bạn có thể tìm thấy ứng dụng trong Start Menu và trên màn hình nền.
+1. Tải **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-Windows-installer.zip)** về.
+2. Trước khi mở, chuột phải vào file zip → **Properties**, tích ô **Unblock** ở dưới cùng rồi bấm **OK**. Bỏ qua bước này thì Smart App Control sẽ chặn trình cài đặt. Nếu không thấy ô **Unblock** thì file không bị chặn, cứ làm tiếp.
+3. Chuột phải vào file zip → **Extract All** → **Extract**.
+4. Trong thư mục vừa giải nén, bấm đúp vào **install.bat** rồi chọn **Yes** khi Windows hỏi quyền quản trị. Ứng dụng sẽ được cài và tự mở, sau này bạn tìm thấy nó trong Start Menu với tên **SimpMusic**. Nếu máy có bản `.msi` cũ, bản đó cũng sẽ được gỡ.
+
+Nếu Windows vẫn báo Smart App Control đã chặn `install.bat`, hãy cài thủ công trong cùng thư mục:
+
+1. Bấm đúp **simpmusic.crt** → **Install Certificate** → **Local Machine** → **Next** → **Place all certificates in the following store** → **Browse** → **Trusted People** → **OK** → **Next** → **Finish**.
+2. Bấm đúp file **.msix** → **Install**.
+
+Ứng dụng được ký bằng chứng chỉ riêng chứ không phải chứng chỉ trả phí, nên máy cần được báo là tin chứng chỉ này một lần. `install.bat` hoặc bước 1 ở trên làm việc đó.
 
 </details>
 
