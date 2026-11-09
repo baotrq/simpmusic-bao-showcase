@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="assets/banner-grey.png" alt="Nhạc Nhẽo for Android and Windows: all of YouTube Music, in a player that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
+<img src="assets/banner-grey.png" alt="Nhạc Nhẽo for Android and Windows: a music client that feels handmade. Three phones showing synced lyrics, the player and a two-cover crossfade." />
 
 # Nhạc Nhẽo
 
-**All of YouTube Music, in a player that feels handmade.**
+**A music client that feels handmade.**
 No ads. Music keeps playing with the screen off. Lyrics that light up word by word, translated into your language.
 
 <br />
@@ -228,7 +228,7 @@ Before changing phones or reinstalling, save your library with **Storage & backu
 ## 🛠️ Under the hood: what I built
 
 > [!NOTE]
-> **SimpMusic** is a FOSS YouTube Music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
+> **SimpMusic** is a FOSS music client by [maxrave-dev](https://github.com/maxrave-dev) and its contributors (GPL-3.0).
 > This part shows only **what I changed in my fork**: 39 commits across the app and its `core` module, October 12 – November 6, 2026.
 
 ![Kotlin Multiplatform](https://img.shields.io/badge/Kotlin_Multiplatform-1B1B1F?style=flat-square&logo=kotlin)
@@ -357,7 +357,7 @@ so a new install signs itself in:
 ## 🎛️ A player rebuilt for Samsung DeX
 
 
-- **Grows out of the mini player**, YouTube Music style: drag the bar up and the player follows your
+- **Grows out of the mini player**: drag the bar up and the player follows your
   finger, the bar's glass carried over and the cover flying to its place; release to open or sink back
 - **Decluttered** for a desktop-sized screen: no volume row, output capsule or bitrate line;
   play/pause right on the Lyrics and Queue headers
