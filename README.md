@@ -11,11 +11,12 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.3/SimpMusic-2.5.9.msi"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 220 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-aarch64.dmg"><img src="assets/download-mac.svg" width="340" alt="Download for Mac, about 230 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-aarch64.dmg"><img src="assets/download-mac-apple-silicon.svg" width="340" alt="Download for Apple Silicon Mac (M1 or later), about 230 MB" /></a>
+<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-amd64.dmg"><img src="assets/download-mac-intel.svg" width="340" alt="Download for Intel Mac, about 260 MB" /></a>
 
 **Android, Windows and Mac. There is no iPhone, iPad or Linux version.**<br />
 <sub>Dành cho Android, Windows và Mac. Không có bản cho iPhone, iPad hoặc Linux.</sub><br />
-<sub>The Mac button is for Apple Silicon (M1 or later). Intel Mac? <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.08.4/SimpMusic-2.5.0.10-mac-amd64.dmg">Download the Intel version</a>.</sub>
+<sub>Which Mac? Apple menu → About This Mac: <b>Chip: Apple M…</b> is Apple Silicon, <b>Processor: Intel</b> is Intel.</sub>
 
 <br />
 <br />
