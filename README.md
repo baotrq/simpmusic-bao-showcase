@@ -10,9 +10,9 @@ No ads. Music keeps playing with the screen off. Lyrics that light up word by wo
 <br />
 
 <a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/latest/download/SimpMusic-arm64-v8a.apk"><img src="assets/download-android.svg" width="340" alt="Download for Android, about 30 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-Windows-installer.zip"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 245 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-aarch64.dmg"><img src="assets/download-mac-apple-silicon.svg" width="340" alt="Download for Apple Silicon Mac (M1 or later), about 230 MB" /></a>
-<a href="https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-amd64.dmg"><img src="assets/download-mac-intel.svg" width="340" alt="Download for Intel Mac, about 260 MB" /></a>
+<a href="https://nhacnheo.pages.dev/download/windows"><img src="assets/download-windows.svg" width="340" alt="Download for Windows, about 245 MB" /></a>
+<a href="https://nhacnheo.pages.dev/download/mac-arm"><img src="assets/download-mac-apple-silicon.svg" width="340" alt="Download for Apple Silicon Mac (M1 or later), about 230 MB" /></a>
+<a href="https://nhacnheo.pages.dev/download/mac-intel"><img src="assets/download-mac-intel.svg" width="340" alt="Download for Intel Mac, about 260 MB" /></a>
 
 **Android, Windows and Mac. There is no iPhone, iPad or Linux version.**<br />
 <sub>Dành cho Android, Windows và Mac. Không có bản cho iPhone, iPad hoặc Linux.</sub><br />
@@ -92,7 +92,7 @@ Muốn đổi ngôn ngữ: **Cài đặt → Giao diện → Ngôn ngữ**.
 
 ### Windows
 
-1. Download **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-Windows-installer.zip)**.
+1. Download **[SimpMusic-Windows-installer.zip](https://nhacnheo.pages.dev/download/windows)**.
 2. Before opening it, right-click the zip → **Properties**, tick **Unblock** at the bottom, then **OK**. Skip this and Smart App Control blocks the installer. No **Unblock** box means the file isn't blocked, so just go on.
 3. Right-click the zip → **Extract All** → **Extract**.
 4. In the extracted folder, double-click **install.bat** and click **Yes** when Windows asks for admin rights. It installs the app and opens it, and you'll find it in the Start Menu as **SimpMusic**. If you had the old `.msi` version, it removes that too.
@@ -108,7 +108,7 @@ The app is signed with its own certificate rather than a paid one, so this PC ha
 <summary><b>🇻🇳 Cách cài trên Windows bằng tiếng Việt</b></summary>
 <br />
 
-1. Tải **[SimpMusic-Windows-installer.zip](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-Windows-installer.zip)** về.
+1. Tải **[SimpMusic-Windows-installer.zip](https://nhacnheo.pages.dev/download/windows)** về.
 2. Trước khi mở, chuột phải vào file zip → **Properties**, tích ô **Unblock** ở dưới cùng rồi bấm **OK**. Bỏ qua bước này thì Smart App Control sẽ chặn trình cài đặt. Nếu không thấy ô **Unblock** thì file không bị chặn, cứ làm tiếp.
 3. Chuột phải vào file zip → **Extract All** → **Extract**.
 4. Trong thư mục vừa giải nén, bấm đúp vào **install.bat** rồi chọn **Yes** khi Windows hỏi quyền quản trị. Ứng dụng sẽ được cài và tự mở, sau này bạn tìm thấy nó trong Start Menu với tên **SimpMusic**. Nếu máy có bản `.msi` cũ, bản đó cũng sẽ được gỡ.
@@ -129,8 +129,8 @@ Nếu Windows vẫn báo Smart App Control đã chặn `install.bat`, hãy cài 
 Needs macOS 15 Sequoia or later.
 
 1. Download the version for your Mac. Not sure which? Click the Apple menu → **About This Mac**: **Chip: Apple M…** means Apple Silicon, **Processor: Intel** means Intel.
-   - **[Apple Silicon (M1 or later)](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-aarch64.dmg)**
-   - **[Intel](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-amd64.dmg)**
+   - **[Apple Silicon (M1 or later)](https://nhacnheo.pages.dev/download/mac-arm)**
+   - **[Intel](https://nhacnheo.pages.dev/download/mac-intel)**
 2. Open the downloaded `.dmg` and drag **SimpMusic** onto **Applications**.
 3. Open SimpMusic from Applications. If your Mac asks whether to open an app downloaded from the internet, click **Open**. It's signed and checked by Apple, so there's no other warning.
 
@@ -143,8 +143,8 @@ On a Mac it's called **SimpMusic**, not Nhạc Nhẽo. If you already have the o
 Cần macOS 15 Sequoia trở lên.
 
 1. Tải bản phù hợp với máy. Không chắc máy bạn là loại nào? Bấm menu Apple → **About This Mac** (Giới thiệu về máy Mac này): thấy **Chip: Apple M…** là Apple Silicon, thấy **Processor: Intel** là Intel.
-   - **[Apple Silicon (M1 trở lên)](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-aarch64.dmg)**
-   - **[Intel](https://github.com/baotrq/simpmusic-bao-showcase/releases/download/bao-2026.11.09.2/SimpMusic-2.5.0.12-mac-amd64.dmg)**
+   - **[Apple Silicon (M1 trở lên)](https://nhacnheo.pages.dev/download/mac-arm)**
+   - **[Intel](https://nhacnheo.pages.dev/download/mac-intel)**
 2. Mở file `.dmg` vừa tải rồi kéo **SimpMusic** vào **Applications**.
 3. Mở SimpMusic trong Applications. Nếu máy hỏi có mở ứng dụng tải từ internet không, bấm **Open**. Bản này đã được ký và được Apple kiểm tra, nên không có cảnh báo nào khác.
 
